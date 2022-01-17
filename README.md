@@ -30,14 +30,14 @@
 
 GFM a-tail link @pandao
 
-###Code Blocks (multi-language) & highlighting
+### Code Blocks (multi-language) & highlighting
 
-####Inline code
+#### Inline code
 
 `$ npm install marked`
 
 
-####HTML code
+#### HTML code
 
 ```html
 <!DOCTYPE html>
@@ -52,12 +52,9 @@ GFM a-tail link @pandao
 </html>
 ```
 
-###Images
+### Images
 
 Image:
 
 ![](https://pandao.github.io/editor.md/examples/images/4.jpg)
 
-
-
-###End
