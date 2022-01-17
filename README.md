@@ -9,10 +9,25 @@
 
 
 ## Ejercicio Inicial
+Crear un contenedor demonio a partir de la imagen nginx , el contenedor se debe llamar servidor_web y se debe acceder a él utilizando el puerto 8181 del ordenador donde
+tengas instalado docker.
+
+`$ docker run -d --name servidor_web -p 8181:80 nginx `
+
+`$ docker ps`
+
+1. Pantallazo donde se vea la creación del contenedor y podamos comprobar que el contenedor está funcionando.
+
+![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+
 ## Ejercicio trabajo con imágenes
 ### Servidor Web
 ### Servidor de base de datos
 ## Ejercicio Almacenamiento
+
+
+
+
 
 
 
