@@ -8,15 +8,15 @@
 [TOC]
 
 
-##Ejercicio Inicial
-##Ejercicio trabajo con imágenes
+## Ejercicio Inicial
+## Ejercicio trabajo con imágenes
 ### Servidor Web
 ### Servidor de base de datos
 ## Ejercicio Almacenamiento
 
 
 
-###Links
+### Links
 
 [Links](http://localhost/)
 
