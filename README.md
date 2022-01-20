@@ -45,9 +45,14 @@ estar parado el contenedor).
 ### Servidor Web
 ### Servidor de base de datos
 ## Ejercicio Almacenamiento
+### Bind mount para compartir datos
 
+1. Crea una carpeta llamada *saludo* y dentro de ella crea un fichero llamado *index.html* con el siguiente contenido (Deberás sustituir ese XXXXXx por tu
+nombre.):
 
-
+```html
+        <h1HOLA SOY XXXXXX</</h1>
+```
 
 
 
@@ -88,9 +93,6 @@ GFM a-tail link @pandao
 </html>
 ```
 
-### Images
 
-Image:
 
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
 
