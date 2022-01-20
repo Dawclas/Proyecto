@@ -3,23 +3,6 @@
 
 **Tabla de Contenidos**
 
-[TOCM]
-
-[TOC]
-
-#H1 header
-##H2 header
-###H3 header
-####H4 header
-#####H5 header
-######H6 header
-#Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-##Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-###Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-####Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
-#####Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-######Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-
 
 
 ## Ejercicio Inicial
@@ -32,7 +15,21 @@ tengas instalado docker.
 
 1. Pantallazo donde se vea la creación del contenedor y podamos comprobar que el contenedor está funcionando.
 
-![](https://github.com/Dawclas/Proyecto/blob/82101632a2437e258cf0655deeb876378d31d3af/Capturas/Captura%201.PNG)
+![](https://github.com/Dawclas/Proyecto/blob/39abd8b102a4be6163a0c7411df5530d04b0ff38/Capturas/Captura1.PNG)
+
+2. Pantallazo donde se vea el acceso al servidor web utilizando un navegador web (recuerda que tienes que acceder a la ip del ordenador donde tengas instalado
+docker)
+
+![](https://github.com/Dawclas/Proyecto/blob/39abd8b102a4be6163a0c7411df5530d04b0ff38/Capturas/Captura2.PNG)
+
+3. Pantallazo donde se vean las imágenes que tienes en tu registro local.
+
+![](https://github.com/Dawclas/Proyecto/blob/39abd8b102a4be6163a0c7411df5530d04b0ff38/Capturas/Captura3.PNG)
+
+4. Pantallazo donde se vea cómo se elimina el contenedor (recuerda que antes debe
+estar parado el contenedor).
+
+![](https://github.com/Dawclas/Proyecto/blob/39abd8b102a4be6163a0c7411df5530d04b0ff38/Capturas/Captura5.1.PNG)
 
 ## Ejercicio trabajo con imágenes
 ### Servidor Web
