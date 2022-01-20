@@ -33,6 +33,7 @@ tengas instalado docker.
 1. Pantallazo donde se vea la creación del contenedor y podamos comprobar que el contenedor está funcionando.
 
 ![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/Dawclas/Proyecto/blob/82101632a2437e258cf0655deeb876378d31d3af/Capturas/Captura%201.PNG)
 
 ## Ejercicio trabajo con imágenes
 ### Servidor Web
