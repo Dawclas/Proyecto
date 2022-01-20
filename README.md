@@ -51,7 +51,7 @@ estar parado el contenedor).
 nombre.):
 
 ```html
-        <h1HOLA SOY XXXXXX</</h1>
+        <h1>HOLA SOY XXXXXX</</h1>
 ```
 
 
