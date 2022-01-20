@@ -13,6 +13,16 @@ tengas instalado docker.
 
 `$ docker ps`
 
+`$ docker images`
+
+`$ docker stop servidor_web`
+
+`$ docker ps`
+
+`$ docker rm servidor_web`
+
+`$ docker ps -a`
+
 1. Pantallazo donde se vea la creación del contenedor y podamos comprobar que el contenedor está funcionando.
 
 ![](https://github.com/Dawclas/Proyecto/blob/39abd8b102a4be6163a0c7411df5530d04b0ff38/Capturas/Captura1.PNG)
