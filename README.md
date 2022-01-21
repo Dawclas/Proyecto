@@ -53,6 +53,21 @@ nombre.):
 ```html
         <h1>HOLA SOY XXXXXX</h1>
 ```
+`$ mkdir saludo`
+
+`$ cd saludo/`
+
+`$ echo "<h1>HOLA SOY XXXXXX</h1>" > index.html`
+
+![](https://github.com/Dawclas/Proyecto/blob/bb5aa01084466b2d2734703369df72234370834e/capturasBindMount/Captura1.PNG)
+
+2. Una vez hecho esto arrancar dos contenedores basados en la imagen php:7.4-apache que hagan un bind mount de la carpeta *saludo* en la carpeta */var/www/html* del contenedor. Uno de ellos vamos a acceder con el puerto 8181 y el otro con el 8282. Y su nombres serán *c1* y *c2* .
+
+`$ docker run -d --name c1 --mount type=bind,src=/home/clientelinuxx/saludo,dst=/var/www/html -p 8181:80 php:7.4-apache`
+
+`$ docker run -d --name c2 --mount type=bind,src=/home/clientelinuxx/saludo,dst=/var/www/html -p 8282:80 php:7.4-apache`
+
+![](https://github.com/Dawclas/Proyecto/blob/bb5aa01084466b2d2734703369df72234370834e/capturasBindMount/Captura2.1.PNG)
 
 
 
