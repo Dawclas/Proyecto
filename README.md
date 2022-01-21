@@ -4,7 +4,7 @@
 **Tabla de Contenidos**
 
                 
-+ Ejercicio - Inicial
++ Ejercicio - Inicial [Inicial](http://localhost/ "Ejercicio - Inicial")
 + Ejercicio - Trabajo con imágenes
     + Servidor Web
     + Servidor de base de datos
