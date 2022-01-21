@@ -3,9 +3,21 @@
 
 **Tabla de Contenidos**
 
+                
++ Ejercicio - Inicial
++ Ejercicio - Trabajo con imágenes
+    + Servidor Web
+    + Servidor de base de datos
++ Ejercicio - Almacenamiento
+    * Bind mount para compartir datos
++ Ejercicio - redes
+    * Despliegue de contenedores en red: Adminer y MariaDB
++ Ejercicio - crea una imagen con Dockerfile
+    * Crear una imagen con un servidor web que sirva un sitio web
 
 
-## Ejercicio Inicial
+## Ejercicio Inicial 
+
 Crear un contenedor demonio a partir de la imagen nginx , el contenedor se debe llamar servidor_web y se debe acceder a él utilizando el puerto 8181 del ordenador donde
 tengas instalado docker.
 
