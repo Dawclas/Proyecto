@@ -67,47 +67,34 @@ nombre.):
 
 `$ docker run -d --name c2 --mount type=bind,src=/home/clientelinuxx/saludo,dst=/var/www/html -p 8282:80 php:7.4-apache`
 
+`$ curl http://localhost:8181 `
+
+`$ curl http://localhost:8282 `
+
 ![](https://github.com/Dawclas/Proyecto/blob/bb5aa01084466b2d2734703369df72234370834e/capturasBindMount/Captura2.1.PNG)
 
+![](https://github.com/Dawclas/Proyecto/blob/00bae2308b95006d89fffeb10db06c4f3256ec93/capturasBindMount/Captura2.2.PNG)
 
+3. Modifica el contenido del fichero *~/saludo/index.html*.
 
+`$ echo "<h1>Adios</h1>" > saludo/index.html`
 
-### Links
+![](https://github.com/Dawclas/Proyecto/blob/00bae2308b95006d89fffeb10db06c4f3256ec93/capturasBindMount/Captura3.PNG)
 
-[Links](http://localhost/)
+4. Comprueba que puedes seguir accediendo a los contenedores, sin necesidad de reiniciarlos.
 
-[Links with title](http://localhost/ "link title")
+`$ docker exec -it c1 bash`
 
-`<link>` : <https://github.com>
+`$ docker exec -it c2 bash`
 
-[Reference link][id/name] 
+`$ curl http://localhost:8181`
 
-[id/name]: http://link-url/
+`$ curl http://localhost:8282`
 
-GFM a-tail link @pandao
+![](https://github.com/Dawclas/Proyecto/blob/00bae2308b95006d89fffeb10db06c4f3256ec93/capturasBindMount/Captura4.2.PNG)
 
-### Code Blocks (multi-language) & highlighting
+5. Borra los contenedores utilizados.
 
-#### Inline code
+`$ docker rm -f c1`
 
-`$ npm install marked`
-
-
-#### HTML code
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <mate charest="utf-8" />
-        <title>Hello world!</title>
-    </head>
-    <body>
-        <h1>Hello world!</h1>
-    </body>
-</html>
-```
-
-
-
-
+`$ docker rm -f c2`
