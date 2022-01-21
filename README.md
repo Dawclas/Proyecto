@@ -4,7 +4,7 @@
 **Tabla de Contenidos**
 
                 
-+ Ejercicio - Inicial [Inicial](http://localhost/ "Ejercicio - Inicial")
++ Ejercicio - Inicial [Ejercicio Inicial](https://github.com/Dawclas/editor.md "Ejercicio Inicial")
 + Ejercicio - Trabajo con imágenes
     + Servidor Web
     + Servidor de base de datos
