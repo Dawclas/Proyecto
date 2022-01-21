@@ -98,3 +98,5 @@ nombre.):
 `$ docker rm -f c1`
 
 `$ docker rm -f c2`
+
+![](https://github.com/Dawclas/Proyecto/blob/00bae2308b95006d89fffeb10db06c4f3256ec93/capturasBindMount/Captura5.PNG)
